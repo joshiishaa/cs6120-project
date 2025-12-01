@@ -20,8 +20,7 @@ All experiments are implemented in a single Jupyter notebook intended to run end
 ```text
 .
 ├── README.md
-├── CS6120_Project.ipynb      # Main project notebook (update name if different)
-└── glove.6B.100d.txt  # GloVe embeddings to download and upload to Drive
+└── CS6120_Project.ipynb      # Main project notebook
 
 ```
 ---
@@ -57,11 +56,11 @@ The notebook includes code or URLs to download it at runtime.
 
 The **CNN** model uses **GloVe 6B 100-dimensional embeddings** (`glove.6B.100d.txt`).
 
-This repository includes that file, so you do **not** need to fetch it from an external site.
+You can downlaod it from here: https://drive.google.com/file/d/1H7guLQS3IL6SnEvv-1GszRKnurGne1bG/view?usp=sharing
 
 Before running the notebook:
 
-1. **Download the GloVe file from this repository**  
+1. **Download the GloVe file from the drive link**  
    - File: `glove.6B.100d.txt`
 
 2. **Upload the file to your Google Drive root directory**  
@@ -83,7 +82,7 @@ Before running the notebook:
 
 2. **Upload GloVe to Google Drive**
 
-   - Download `glove.6B.100d.txt` from this repo.
+   - Download `glove.6B.100d.txt`
    - Upload it to the **root** of your Google Drive (`My Drive/glove.6B.100d.txt`).
 
 3. **Enable GPU runtime**
